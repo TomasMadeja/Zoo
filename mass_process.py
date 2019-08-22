@@ -36,7 +36,7 @@ def tortilla(script, test_files, res_dir):
 				ret = subprocess.check_call([
 					str(script)
 					, str(test_files.absolute())
-					, str( Path('/') / p.relative_to(test_files.parent) )
+					, str( Path('/testfiles') / p.absolute().relative_to(test_files) )
 					, str(new_subdir.absolute())
 					])
 				log = new_subdir / Path('logs/eve.json')
