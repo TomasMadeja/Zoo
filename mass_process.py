@@ -43,6 +43,7 @@ def tortilla(script, test_files, res_dir):
 				if not log.is_file():
 					continue
 				js = []
+				alert_js = new_subdir / Path('extracted_alerts.yaml')
 				_f = alert_js.open('w')
 				try:
 					with log.open() as _file:
