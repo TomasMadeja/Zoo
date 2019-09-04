@@ -43,15 +43,22 @@ def tortilla(script, test_files, res_dir):
 				if not log.is_file():
 					continue
 				js = []
-				with log.open() as _file:
-					lines = _file.readlines()
-					for line in lines:
-						one = json.loads(line)
-						if one['event_type'] == 'alert':
-							js.append(one)
-				alert_js = new_subdir / Path('extracted_alerts.yaml')
-				with alert_js.open('w') as _file:
-					yaml.dump(js, _file)
+				_f = alert_js.open('w')
+				try:
+					with log.open() as _file:
+						line = _file.readline()
+						while line != '':
+							one = json.loads(line)
+							if one['event_type'] == 'alert':
+# 								js.append(one)
+								_f.write('- ')
+								_f.write(yaml.dump(one))
+								_f.write('\')
+				finally:
+					_f.close()
+# 				alert_js = new_subdir / Path('extracted_alerts.yaml')
+# 				with alert_js.open('w') as _file:
+# 					yaml.dump(js, _file)
 				
 
 	## soak the tortilla in gasoline, burn at 65783 C° and serve
