@@ -53,7 +53,7 @@ def tortilla(script, test_files, res_dir):
 # 								js.append(one)
 								_f.write('- ')
 								_f.write(yaml.dump(one))
-								_f.write('\')
+								_f.write('\n')
 				finally:
 					_f.close()
 # 				alert_js = new_subdir / Path('extracted_alerts.yaml')
