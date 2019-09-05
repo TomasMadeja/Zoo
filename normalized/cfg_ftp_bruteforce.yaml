@@ -1,0 +1,16 @@
+atk.file: TODO
+export.filetype: xlsx
+ip.map:
+- ip:
+    new: 172.31.69.13
+    old: 240.170.0.2
+- ip:
+    new: 18.216.47.155
+    old: 240.0.0.2
+read.write: sequence
+test.output.dir.path: ../TMTestDir
+timestamp:
+  generation: tcp_avg_shift
+  generation_alt: timestamp_dynamic_shift
+  postprocess: []
+  random.threshold: null

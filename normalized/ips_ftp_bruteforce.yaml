@@ -1,0 +1,20 @@
+---
+Description: "All Addresses"
+Count: 606
+Rate (ms): 0.0103
+Percent: 100%
+Burst rate: 0.2100
+Burst start: 6.896
+Items:
+  - Description: "240.170.0.2"
+    Count: 606
+    Rate (ms): 0.0103
+    Percent: 100.00%
+    Burst rate: 0.2100
+    Burst start: 6.896
+  - Description: "240.0.0.2"
+    Count: 606
+    Rate (ms): 0.0103
+    Percent: 100.00%
+    Burst rate: 0.2100
+    Burst start: 6.896

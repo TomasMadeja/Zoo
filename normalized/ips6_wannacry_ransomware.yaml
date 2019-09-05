@@ -1,0 +1,80 @@
+---
+Description: "All Addresses"
+Count: 513
+Rate (ms): 0.0008
+Percent: 100%
+Burst rate: 0.6000
+Burst start: 320.264
+Items:
+  - Description: "2001:db8:5555::b"
+    Count: 11
+    Rate (ms): 0.0000
+    Percent: 2.14%
+    Burst rate: 0.0400
+    Burst start: 689.475
+  - Description: "2001:db8:5555::a"
+    Count: 21
+    Rate (ms): 0.0000
+    Percent: 4.09%
+    Burst rate: 0.0300
+    Burst start: 373.928
+  - Description: "2001:db8:5555::9"
+    Count: 41
+    Rate (ms): 0.0001
+    Percent: 7.99%
+    Burst rate: 0.0200
+    Burst start: 247.277
+  - Description: "2001:db8:5555::8"
+    Count: 13
+    Rate (ms): 0.0000
+    Percent: 2.53%
+    Burst rate: 0.0100
+    Burst start: 119.886
+  - Description: "2001:db8:5555::7"
+    Count: 37
+    Rate (ms): 0.0001
+    Percent: 7.21%
+    Burst rate: 0.0700
+    Burst start: 429.736
+  - Description: "2001:db8:5555::6"
+    Count: 6
+    Rate (ms): 0.0000
+    Percent: 1.17%
+    Burst rate: 0.0100
+    Burst start: 119.886
+  - Description: "2001:db8:5555::5"
+    Count: 22
+    Rate (ms): 0.0000
+    Percent: 4.29%
+    Burst rate: 0.0100
+    Burst start: 19.725
+  - Description: "2001:db8:5555::4"
+    Count: 290
+    Rate (ms): 0.0004
+    Percent: 56.53%
+    Burst rate: 0.6000
+    Burst start: 320.264
+  - Description: "2001:db8:5555::3"
+    Count: 22
+    Rate (ms): 0.0000
+    Percent: 4.29%
+    Burst rate: 0.0100
+    Burst start: 10.146
+  - Description: "2001:db8:5555::2"
+    Count: 434
+    Rate (ms): 0.0006
+    Percent: 84.60%
+    Burst rate: 0.6000
+    Burst start: 320.264
+  - Description: "2001:db8:5555::1"
+    Count: 38
+    Rate (ms): 0.0001
+    Percent: 7.41%
+    Burst rate: 0.0400
+    Burst start: 37.761
+  - Description: "2001:db8:5555::"
+    Count: 91
+    Rate (ms): 0.0001
+    Percent: 17.74%
+    Burst rate: 0.2400
+    Burst start: 10.145

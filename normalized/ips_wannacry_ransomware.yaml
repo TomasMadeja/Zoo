@@ -1,0 +1,68 @@
+---
+Description: "All Addresses"
+Count: 43662
+Rate (ms): 0.0635
+Percent: 100%
+Burst rate: 22.9700
+Burst start: 414.331
+Items:
+  - Description: "240.85.0.5"
+    Count: 11
+    Rate (ms): 0.0000
+    Percent: 0.03%
+    Burst rate: 0.0400
+    Burst start: 689.476
+  - Description: "240.85.0.2"
+    Count: 32
+    Rate (ms): 0.0000
+    Percent: 0.07%
+    Burst rate: 0.0200
+    Burst start: 37.761
+  - Description: "240.170.0.4"
+    Count: 27383
+    Rate (ms): 0.0398
+    Percent: 62.72%
+    Burst rate: 20.2900
+    Burst start: 451.659
+  - Description: "240.170.0.3"
+    Count: 30145
+    Rate (ms): 0.0438
+    Percent: 69.04%
+    Burst rate: 22.9700
+    Burst start: 414.331
+  - Description: "240.170.0.237"
+    Count: 16
+    Rate (ms): 0.0000
+    Percent: 0.04%
+    Burst rate: 0.0200
+    Burst start: 373.921
+  - Description: "240.170.0.236"
+    Count: 13
+    Rate (ms): 0.0000
+    Percent: 0.03%
+    Burst rate: 0.0200
+    Burst start: 228.017
+  - Description: "240.170.0.235"
+    Count: 1837
+    Rate (ms): 0.0027
+    Percent: 4.21%
+    Burst rate: 0.9900
+    Burst start: 377.058
+  - Description: "240.170.0.234"
+    Count: 114
+    Rate (ms): 0.0002
+    Percent: 0.26%
+    Burst rate: 0.0300
+    Burst start: 25.773
+  - Description: "240.170.0.232"
+    Count: 97
+    Rate (ms): 0.0001
+    Percent: 0.22%
+    Burst rate: 0.1500
+    Burst start: 357.503
+  - Description: "240.170.0.2"
+    Count: 27676
+    Rate (ms): 0.0403
+    Percent: 63.39%
+    Burst rate: 22.9200
+    Burst start: 414.331

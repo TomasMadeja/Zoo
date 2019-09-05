@@ -1,0 +1,10 @@
+ip:
+  ip.destination:
+  - 240.170.0.2
+  ip.intermediate: []
+  ip.source:
+  - 240.0.0.2
+packets:
+  packets.count: 2431
+  packets.end: 22.060872077941895
+  packets.start: 0

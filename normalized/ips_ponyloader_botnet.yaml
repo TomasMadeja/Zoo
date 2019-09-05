@@ -1,0 +1,488 @@
+---
+Description: "All Addresses"
+Count: 1729
+Rate (ms): 0.0063
+Percent: 100%
+Burst rate: 1.6000
+Burst start: 12.477
+Items:
+  - Description: "240.85.0.9"
+    Count: 8
+    Rate (ms): 0.0000
+    Percent: 0.46%
+    Burst rate: 0.0500
+    Burst start: 41.498
+  - Description: "240.85.0.8"
+    Count: 8
+    Rate (ms): 0.0000
+    Percent: 0.46%
+    Burst rate: 0.0500
+    Burst start: 40.905
+  - Description: "240.85.0.77"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 272.560
+  - Description: "240.85.0.76"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 264.732
+  - Description: "240.85.0.75"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 258.389
+  - Description: "240.85.0.74"
+    Count: 2
+    Rate (ms): 0.0000
+    Percent: 0.12%
+    Burst rate: 0.0100
+    Burst start: 258.156
+  - Description: "240.85.0.73"
+    Count: 2
+    Rate (ms): 0.0000
+    Percent: 0.12%
+    Burst rate: 0.0100
+    Burst start: 257.780
+  - Description: "240.85.0.72"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 251.536
+  - Description: "240.85.0.71"
+    Count: 2
+    Rate (ms): 0.0000
+    Percent: 0.12%
+    Burst rate: 0.0100
+    Burst start: 251.326
+  - Description: "240.85.0.70"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 245.772
+  - Description: "240.85.0.7"
+    Count: 12
+    Rate (ms): 0.0000
+    Percent: 0.69%
+    Burst rate: 0.0600
+    Burst start: 40.283
+  - Description: "240.85.0.69"
+    Count: 339
+    Rate (ms): 0.0012
+    Percent: 19.61%
+    Burst rate: 0.1200
+    Burst start: 246.555
+  - Description: "240.85.0.68"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 238.045
+  - Description: "240.85.0.67"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 231.467
+  - Description: "240.85.0.66"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 225.982
+  - Description: "240.85.0.65"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 217.954
+  - Description: "240.85.0.64"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 217.657
+  - Description: "240.85.0.63"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 210.623
+  - Description: "240.85.0.62"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 210.356
+  - Description: "240.85.0.61"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 203.390
+  - Description: "240.85.0.60"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 203.021
+  - Description: "240.85.0.6"
+    Count: 13
+    Rate (ms): 0.0000
+    Percent: 0.75%
+    Burst rate: 0.0400
+    Burst start: 39.884
+  - Description: "240.85.0.59"
+    Count: 7
+    Rate (ms): 0.0000
+    Percent: 0.40%
+    Burst rate: 0.0200
+    Burst start: 202.505
+  - Description: "240.85.0.58"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 195.436
+  - Description: "240.85.0.57"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 195.152
+  - Description: "240.85.0.56"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 188.715
+  - Description: "240.85.0.55"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 188.451
+  - Description: "240.85.0.54"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 180.926
+  - Description: "240.85.0.53"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 180.650
+  - Description: "240.85.0.52"
+    Count: 8
+    Rate (ms): 0.0000
+    Percent: 0.46%
+    Burst rate: 0.0200
+    Burst start: 180.167
+  - Description: "240.85.0.51"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 172.202
+  - Description: "240.85.0.50"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 165.778
+  - Description: "240.85.0.5"
+    Count: 6
+    Rate (ms): 0.0000
+    Percent: 0.35%
+    Burst rate: 0.0200
+    Burst start: 86.616
+  - Description: "240.85.0.49"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 159.608
+  - Description: "240.85.0.48"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 150.951
+  - Description: "240.85.0.47"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 143.528
+  - Description: "240.85.0.46"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 137.763
+  - Description: "240.85.0.45"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 131.330
+  - Description: "240.85.0.44"
+    Count: 8
+    Rate (ms): 0.0000
+    Percent: 0.46%
+    Burst rate: 0.0200
+    Burst start: 131.018
+  - Description: "240.85.0.43"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 122.607
+  - Description: "240.85.0.42"
+    Count: 8
+    Rate (ms): 0.0000
+    Percent: 0.46%
+    Burst rate: 0.0100
+    Burst start: 117.012
+  - Description: "240.85.0.41"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 115.732
+  - Description: "240.85.0.40"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 108.764
+  - Description: "240.85.0.4"
+    Count: 6
+    Rate (ms): 0.0000
+    Percent: 0.35%
+    Burst rate: 0.0100
+    Burst start: 10.291
+  - Description: "240.85.0.39"
+    Count: 8
+    Rate (ms): 0.0000
+    Percent: 0.46%
+    Burst rate: 0.0100
+    Burst start: 101.491
+  - Description: "240.85.0.38"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 100.934
+  - Description: "240.85.0.37"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 94.221
+  - Description: "240.85.0.36"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 94.041
+  - Description: "240.85.0.35"
+    Count: 10
+    Rate (ms): 0.0000
+    Percent: 0.58%
+    Burst rate: 0.0100
+    Burst start: 87.309
+  - Description: "240.85.0.34"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 87.277
+  - Description: "240.85.0.33"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 86.828
+  - Description: "240.85.0.32"
+    Count: 12
+    Rate (ms): 0.0000
+    Percent: 0.69%
+    Burst rate: 0.0100
+    Burst start: 84.294
+  - Description: "240.85.0.31"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 80.258
+  - Description: "240.85.0.30"
+    Count: 615
+    Rate (ms): 0.0023
+    Percent: 35.57%
+    Burst rate: 0.1100
+    Burst start: 97.412
+  - Description: "240.85.0.3"
+    Count: 39
+    Rate (ms): 0.0001
+    Percent: 2.26%
+    Burst rate: 0.0200
+    Burst start: 60.028
+  - Description: "240.85.0.29"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 74.154
+  - Description: "240.85.0.28"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 65.607
+  - Description: "240.85.0.27"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 57.623
+  - Description: "240.85.0.26"
+    Count: 1
+    Rate (ms): 0.0000
+    Percent: 0.06%
+    Burst rate: 0.0100
+    Burst start: 49.780
+  - Description: "240.85.0.25"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 49.518
+  - Description: "240.85.0.24"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 48.941
+  - Description: "240.85.0.23"
+    Count: 6
+    Rate (ms): 0.0000
+    Percent: 0.35%
+    Burst rate: 0.0200
+    Burst start: 48.125
+  - Description: "240.85.0.22"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 47.752
+  - Description: "240.85.0.21"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 47.436
+  - Description: "240.85.0.20"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 47.074
+  - Description: "240.85.0.2"
+    Count: 39
+    Rate (ms): 0.0001
+    Percent: 2.26%
+    Burst rate: 0.0200
+    Burst start: 60.028
+  - Description: "240.85.0.19"
+    Count: 8
+    Rate (ms): 0.0000
+    Percent: 0.46%
+    Burst rate: 0.0300
+    Burst start: 46.892
+  - Description: "240.85.0.18"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 45.984
+  - Description: "240.85.0.17"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 45.664
+  - Description: "240.85.0.16"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 45.202
+  - Description: "240.85.0.15"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 44.789
+  - Description: "240.85.0.14"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 44.546
+  - Description: "240.85.0.13"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 43.804
+  - Description: "240.85.0.12"
+    Count: 4
+    Rate (ms): 0.0000
+    Percent: 0.23%
+    Burst rate: 0.0200
+    Burst start: 42.760
+  - Description: "240.85.0.11"
+    Count: 8
+    Rate (ms): 0.0000
+    Percent: 0.46%
+    Burst rate: 0.0500
+    Burst start: 42.392
+  - Description: "240.85.0.10"
+    Count: 8
+    Rate (ms): 0.0000
+    Percent: 0.46%
+    Burst rate: 0.0500
+    Burst start: 41.778
+  - Description: "240.170.0.2"
+    Count: 1690
+    Rate (ms): 0.0062
+    Percent: 97.74%
+    Burst rate: 1.6000
+    Burst start: 12.477
+  - Description: "240.0.0.4"
+    Count: 73
+    Rate (ms): 0.0003
+    Percent: 4.22%
+    Burst rate: 0.1600
+    Burst start: 132.557
+  - Description: "240.0.0.3"
+    Count: 12
+    Rate (ms): 0.0000
+    Percent: 0.69%
+    Burst rate: 0.0600
+    Burst start: 10.699
+  - Description: "240.0.0.2"
+    Count: 389
+    Rate (ms): 0.0014
+    Percent: 22.50%
+    Burst rate: 1.6000
+    Burst start: 12.477
