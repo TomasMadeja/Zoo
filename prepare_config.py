@@ -130,7 +130,9 @@ def build_config(
     }
     return cfg
 
-def handle(ips_file, ips6_file, label_file, output):
+
+
+def handle(ips_file, ips6_file, label_file, output_path, output_name):
     ips = extract(str(Path(ips_file)))
     dst, intr, src = prepare_background_ips(ips)
     ips = extract(str(Path(ips_file)))
@@ -141,11 +143,34 @@ def handle(ips_file, ips6_file, label_file, output):
     labels_ip = labels_yaml['ip']
     ip_map = build_map(labels_ip, dst, intr, src, dst6, intr6, src6)
 
-    cfg = build_config('TODO')
-    cfg['ip.map'] = ip_map
+    for i, j in [
+        (None, 'simple'),
+        ('timestamp_delay', 'delay'),
+        ('timestamp_delay_forIPconst', 'dhst'),
+        ('timestamp_random_oscillation', 'osci')
+    ]:
+        postprocess = []
+        if i != None:
+            postprocess=[i]
+        cfg = build_config(
+            'TODO',
+            random_threshold=0.001,
+            postprocess=postprocess
+            )
+        cfg['ip.map'] = ip_map
 
-    with Path(output).open('w') as _f:
-        _f.write(yaml.dump(cfg))
+        if i == 'timestamp_delay_forIPconst':
+            _map = []
+            for i in ip_map:
+                _map.append({
+                    'type' : 'old',
+                    'address' : i['ip']['old']
+                })
+            cfg['timestamp.random.set'] = _map
+
+        output = Path(output_path) / Path(f'{j}_{output_name}.yaml')
+        with Path(output).open('w') as _f:
+            _f.write(yaml.dump(cfg))
 
 SRC = [
     ['18']
@@ -163,7 +188,8 @@ handle(
     r"C:\Users\tomas.madeja\Desktop\ips.yaml",
     r"C:\Users\tomas.madeja\Desktop\ip6s.yaml",
     r"C:\Users\tomas.madeja\Downloads\normalized\round4\normalized\normalized_wannacry_ransomware.yaml",
-    r"C:\Users\tomas.madeja\Downloads\normalized\round4\normalized\cfg_wannacry_ransomware.yaml"
+    r"C:\Users\tomas.madeja\Downloads\normalized\round4\normalized",
+    'cfg'
 )
 
 
