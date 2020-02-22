@@ -135,13 +135,19 @@ def build_config(
 def handle(ips_file, ips6_file, label_file, output_path, output_name):
     ips = extract(str(Path(ips_file)))
     dst, intr, src = prepare_background_ips(ips)
-    ips = extract(str(Path(ips_file)))
+    ips = extract(str(Path(ips6_file)))
     dst6, intr6, src6 = prepare_background_ips(ips)
 
     with Path(label_file).open() as _f:
         labels_yaml = yaml.load(_f.read())
     labels_ip = labels_yaml['ip']
     ip_map = build_map(labels_ip, dst, intr, src, dst6, intr6, src6)
+    time_stamp_shifteruni = [
+        {
+            'ip' : i['ip']['old'],
+            'shift' : 0
+        } for i in ip_map
+    ]
 
     for i, j in [
         (None, 'simple'),
@@ -158,6 +164,8 @@ def handle(ips_file, ips6_file, label_file, output_path, output_name):
             postprocess=postprocess
             )
         cfg['ip.map'] = ip_map
+        cfg['tcp.timestamp.shift'] = time_stamp_shifteruni
+        cfg['tcp.timestamp.shift.default'] = 0
 
         if i == 'timestamp_delay_forIPconst':
             _map = []
@@ -185,11 +193,11 @@ DST = [
 ]
 
 handle(
-    r"C:\Users\tomas.madeja\Desktop\ips.yaml",
-    r"C:\Users\tomas.madeja\Desktop\ip6s.yaml",
-    r"C:\Users\tomas.madeja\Downloads\normalized\round4\normalized\normalized_wannacry_ransomware.yaml",
-    r"C:\Users\tomas.madeja\Downloads\normalized\round4\normalized",
-    'cfg'
+    r"D:\virtualbox\shared\ubuntu_test\r1\ips.yaml",
+    r"D:\virtualbox\shared\ubuntu_test\r1\ip6s.yaml",
+    r"D:\virtualbox\shared\ubuntu_test\r1\normalized\normalized_wannacry_ransomware.yaml",
+    r"D:\virtualbox\shared\ubuntu_test\r1\normalized",
+    'wannacry_ransomware'
 )
 
 
